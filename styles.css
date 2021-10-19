@@ -1,0 +1,191 @@
+body {
+    font-family: 'Source Sans Pro', serif;
+}
+
+.display-lg {
+    font-size: 120px;
+    font-weight: 900;
+}
+
+@media (max-width: 684px) {
+    .display-lg {
+        font-size: 61px; 
+    }
+}
+
+.container-md {
+    max-width: 1400px;
+}
+
+.px-6 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.mr-10 {
+    margin-right: 5rem;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.pt-grande {
+    padding-top: 170px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.w-sb {
+    width: 31.5%;
+}
+
+.opacity-50 {
+    opacity: 50%;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #C271FF !important;
+    border-bottom: 3px solid white;
+    padding-bottom: 3px;
+}
+
+button:hover, button:active, a:hover, a:active {
+    opacity: 0.9;
+}
+
+header .bg-homepage {
+    background-image: url("/images/pic_1.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .bg-pricing {
+    background-image: url("/images/pic_2.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .bg-courses {
+    background-image: url("/images/pic_3.jpg");
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-brand {
+    font-family: 'Coiny', serif;
+}
+
+.font-coiny {
+    font-family: 'Coiny', serif;
+}
+
+.navbar-toggler .toggler-example {
+    cursor: pointer;
+}
+
+.color-purp {
+    color: #C271FF;
+}
+
+.bg-purp {
+   background-color: #C271FF;
+}
+
+.bg-lp {
+    background-color: #D195FF;
+}
+
+.bg-db {
+    background-color: #071629;
+}
+
+@media (max-width: 576px) {
+    .cara-cust {
+        margin-top: 25px;
+    }
+}
+
+.carousel-control {
+    margin: 5px;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+
+.cust-card {
+    max-width: 255px;
+}
+
+#quotes .slick-prev {
+    background-image: url('/images/arrow_white_left.png');
+    height: 62px;
+    width: 29px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#quotes .slick-next {
+    background-image: url('/images/arrow_white_right.png');
+    height: 62px;
+    width: 29px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#quotes .slick-prev:before {
+    color: #C271FF !important;
+    background-color: #C271FF;
+}
+
+#quotes .slick-next:before {
+    color: #C271FF !important;
+    background-color: #C271FF;
+}
+
+.responsive .slick-prev {
+    background-image: url('/images/arrow_black_left.png');
+    height: 62px;
+    width: 29px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.responsive .slick-next {
+    background-image: url('/images/arrow_black_right.png');
+    height: 62px;
+    width: 29px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #C271FF;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
