@@ -6,9 +6,9 @@ You and your team have been contacted by a local, elusive, client. They have a n
 
 * “Waves”
 
-### TASKS
+## TASKS
 
-## 0. Building The Site
+### 0. Building The Site
 
 You and your team are tasked with the following:
 
@@ -24,7 +24,7 @@ You and your team are tasked with the following:
 * Cookies
 * Forms
 
-## 1. Client Pitch
+### 1. Client Pitch
 You and your team must pitch your website to this elusive client. They refuse to meet with you in person or online - instead, they insist that you send them a document selling them on why YOUR website is the one to pick for their new product.
 
 Your pitch must include the following:
