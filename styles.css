@@ -55,7 +55,7 @@ body {
 }
 
 .nav-link:hover, .nav-link:active {
-    color: #C271FF !important;
+    color: #61D85E !important;
     border-bottom: 3px solid white;
     padding-bottom: 3px;
 }
@@ -64,28 +64,12 @@ button:hover, button:active, a:hover, a:active {
     opacity: 0.9;
 }
 
-header .bg-homepage {
-    background-image: url("/images/pic_1.jpg");
-    height: 100%;
-    background-position: center center;
+header .bg-hero {
+    background-image: url("/images/hero_background.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-header .bg-pricing {
-    background-image: url("/images/pic_2.jpg");
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-header .bg-courses {
-    background-image: url("/images/pic_3.jpg");
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 1200px;
 }
 
 .navbar-brand {
@@ -100,16 +84,16 @@ header .bg-courses {
     cursor: pointer;
 }
 
-.color-purp {
-    color: #C271FF;
+.color-darkBlue {
+    color: #071629;
 }
 
-.bg-purp {
-   background-color: #C271FF;
+.bg-limeGreen {
+    background-color: #61D85E;
 }
 
-.bg-lp {
-    background-color: #D195FF;
+.bg-teal {
+   background-color: #5CB49A;
 }
 
 .bg-db {
@@ -122,62 +106,13 @@ header .bg-courses {
     }
 }
 
-.carousel-control {
-    margin: 5px;
-    padding: 0;
-    position: relative;
-    width: auto;
-}
-
 .cust-card {
     max-width: 255px;
 }
 
-#quotes .slick-prev {
-    background-image: url('/images/arrow_white_left.png');
-    height: 62px;
-    width: 29px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#quotes .slick-next {
-    background-image: url('/images/arrow_white_right.png');
-    height: 62px;
-    width: 29px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-#quotes .slick-prev:before {
-    color: #C271FF !important;
-    background-color: #C271FF;
-}
-
-#quotes .slick-next:before {
-    color: #C271FF !important;
-    background-color: #C271FF;
-}
-
-.responsive .slick-prev {
-    background-image: url('/images/arrow_black_left.png');
-    height: 62px;
-    width: 29px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.responsive .slick-next {
-    background-image: url('/images/arrow_black_right.png');
-    height: 62px;
-    width: 29px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .loader {
     border: 10px solid #f3f3f3;
-    border-top: 10px solid #C271FF;
+    border-top: 10px solid #61D85E;
     border-radius: 50%;
     width: 80px;
     height: 80px;
