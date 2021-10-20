@@ -40,39 +40,41 @@
 <body>
   <header id="section-hero">
     <div class="bg-hero">
-      <div class="navbar container pt-4 pb-5">
-        <button class="navbar-toggler bg-white d-sm-none col-2" type="button" data-toggle="collapse"
-          data-target="#hiddenNav" aria-controls="hiddenNav" aria-expanded="false" aria-label="Toggle navigation"><i
-            class="fa fa-bars"></i></button>
-        <div class="collapse navbar-collapse d-sm-none" id="hiddenNav">
-          <ul class="navbar-nav w-15">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#information">Information</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#vendors">Vendors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#features">Features</a>
-            </li>
-            <li>
-              <a class="nav-link text-white" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <a class="navbar-brand text-white d-flex flex-row col-8 col-sm-3" href="#">
-          <div class="d-flex flex-column flex-sm-row align-items-center mr-3">
-            Splash Planet
+      <div style="background-color:rgba(236, 236, 236, 0.3);">
+        <div class="navbar container-fluid pt-4 pb-4">
+          <button class="navbar-toggler bg-white d-sm-none col-2" type="button" data-toggle="collapse"
+            data-target="#hiddenNav" aria-controls="hiddenNav" aria-expanded="false" aria-label="Toggle navigation"><i
+              class="fa fa-bars"></i></button>
+          <div class="collapse navbar-collapse d-sm-none" id="hiddenNav">
+            <ul class="navbar-nav w-15">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#information">Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#vendors">Vendors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#features">Features</a>
+              </li>
+              <li>
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
-          <span class="iconify mx-3" data-icon="icon-park:planet" data-width="30" data-height="30" data-rotate="180deg"
-            data-flip="horizontal"></span>
-        </a>
-        <nav class="d-none d-sm-flex nav">
-          <a class="nav-link text-dark px-1" href="#information">Information</a>
-          <a class="nav-link text-dark px-1 mx-2 mx-md-5" href="#vendors">Vendors</a>
-          <a class="nav-link text-dark px-1" href="#features">Features</a>
-          <a class="nav-link text-dark px-1 mx-2 mx-md-5" href="#contact">Contact</a>
-        </nav>
+          <a class="navbar-brand text-white d-flex flex-row col-8 col-sm-3" href="#">
+            <div class="d-flex flex-column flex-sm-row align-items-center mx-3">
+              Splash Planet
+            </div>
+            <span class="iconify mx-3" data-icon="icon-park:planet" data-width="30" data-height="30" data-rotate="180deg"
+              data-flip="horizontal"></span>
+          </a>
+          <nav class="d-none d-sm-flex nav">
+            <a class="nav-link text-dark px-1" href="#information">Information</a>
+            <a class="nav-link text-dark px-1 mx-2 mx-md-5" href="#vendors">Vendors</a>
+            <a class="nav-link text-dark px-1" href="#features">Features</a>
+            <a class="nav-link text-dark px-1 mx-2 mx-md-5" href="#contact">Contact</a>
+          </nav>
+        </div>
       </div>
       <div class="container-fluid container-lg text-center text-white">
         <p class="display-lg m-0">Fun awaits you...</p>
@@ -82,7 +84,7 @@
         <button type="button" class="btn btn-lg rounded-pill bg-yellow shadow-lg px-4 text-dark">BUY
           TICKETS</button>
       </div>
-      <div class="container mx-auto text-center pt-5 pb-5">
+      <div class="container mx-auto text-center py-5">
         <a href="#quotes">
           <h1 class="text-white">Scroll to discover more</h1>
           <span class="iconify text-white" data-icon="fa-regular:arrow-alt-circle-down" data-width="32"
@@ -93,12 +95,12 @@
     </div>
   </header>
   <!-- IMPLEMENT CAROUSEL OF QUOTES -->
-  <section class="bg-success font-size pt-5 pb-5">
+  <!-- <section class="bg-success font-size pt-5 pb-5">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active"> -->
           <!-- <div class="loader"></div> -->
-          <div class="row align-items-center justify-content-center" id="quote1">
+          <!-- <div class="row align-items-center justify-content-center" id="quote1">
             <div class="row justify-content-around">
               <div class="col-sm-2">
                 <img class="rounded-circle mx-auto mt-3 mb-3 d-block" id="profile" src="images/splash_profile_guy.jpg"
@@ -112,11 +114,11 @@
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="carousel-item">
+          </div> -->
+        <!-- </div>
+        <div class="carousel-item"> -->
           <!--<div class="loader"></div>-->
-          <div class="row align-items-center justify-content-center" id="quote2">
+          <!-- <div class="row align-items-center justify-content-center" id="quote2">
             <div class="row justify-content-around">
               <div class="col-sm-2">
                 <img class="rounded-circle mx-auto mt-3 mb-3 d-block" id="profile1" src="images/splash_profile_girl.jpg"
@@ -140,12 +142,11 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-  </section>
-  <section class="bg-success" id="quotes">
+  </section> -->
+  <section class="bg-success py-5" id="quotes">
     <div class="single-item container">
 
     </div>
-    <!--<div class="loader"></div>-->
   </section>
   <section class="container row mx-auto" id="information">
     <div class="col-sm-6 col-lg-3 px-2">
