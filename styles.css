@@ -9,7 +9,7 @@ body {
 
 @media (max-width: 684px) {
     .display-lg {
-        font-size: 61px; 
+        font-size: 61px;
     }
 }
 
@@ -96,6 +96,10 @@ header .bg-hero {
    background-color: #5CB49A;
 }
 
+.bg-yellow {
+    background-color: #ffff66;
+}
+
 .bg-db {
     background-color: #071629;
 }
@@ -108,6 +112,10 @@ header .bg-hero {
 
 .cust-card {
     max-width: 255px;
+}
+
+.font-size {
+    font-size: 20px;
 }
 
 .loader {
