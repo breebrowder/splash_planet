@@ -1,6 +1,6 @@
 #  Custom Frontend From Scratch - SPLASH PLANET
 
-![alt text](https://github.com/breebrowder/splash_planet/blob/Bree/images/readME.png)
+![alt text](https://github.com/breebrowder/splash_planet/blob/Bree/images/planet.jpg)
 
 ## Project Info
 
@@ -42,12 +42,12 @@ Your pitch must include the following:
 
 #### Contributors
 1. Jay Calhoun
-[Email](2372@holbertonschool.com)
-[Github](github.com/Valinor13)
+   *[Email](2372@holbertonschool.com)
+   *[Github](github.com/Valinor13)
 
 2. Bree Browder
-[Email](2372@holbertonschool.com)
-[Github](github.com/breebrowder
+   *[Email](2372@holbertonschool.com)
+   *[Github](github.com/breebrowder)
 
 #### DUE:
 October 25, 2021
