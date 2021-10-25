@@ -118,17 +118,13 @@ header .bg-hero {
     font-size: 20px;
 }
 
-.loader {
-    border: 10px solid #f3f3f3;
-    border-top: 10px solid #61D85E;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    animation: spin 2s linear infinite;
-    margin: auto;
+#oddParagraph {
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+@media (max-width: 790px) {
+    #hero-span {
+        background-color:rgba(255, 255, 255, 0.4);
+    }
 }

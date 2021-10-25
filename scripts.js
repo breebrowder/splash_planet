@@ -6,7 +6,7 @@ const quote1 = `<div class="row align-items-center justify-content-center" id="q
                     <div class="col-sm-6 ml-3 mr-3 float-left text-white" id="testimonial1">
                       <p>"I bring my family here every year. Splash Planet is always exactly what we need during the hot
                           summer months. And the time spent with family is unbeatable."</p>
-                      <p><span class="text-white font-weight-bold" id="name">John Doe</span><br>
+                      <p><span class="text-white font-weight-bold" id="name">John Smith</span><br>
                         <span class="text-white font-italic" id="weatherman">2017</span>
                       </p>
                     </div>
@@ -26,13 +26,19 @@ const quote2 = `<div class="row align-items-center justify-content-center" id="q
                       </p>
                     </div>
                   </div>
-                </div>`
+                </div>`;
 
 $(document).ready(function () {
   loadQuotes();
   var fiveMinutes = 60 * 5,
-    display = document.querySelector('#time');
+  display = document.querySelector('#time');
   startTimer(fiveMinutes, display);
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+  $('#bookIt').click(() => {
+    sessionStorage.setItem($('#custName').val(), $('#bookItDate').val());
+  })
 })
 
 function loadQuotes() {
