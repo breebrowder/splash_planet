@@ -9,7 +9,7 @@ body {
 
 @media (max-width: 684px) {
     .display-lg {
-        font-size: 61px; 
+        font-size: 61px;
     }
 }
 
@@ -96,6 +96,10 @@ header .bg-hero {
    background-color: #5CB49A;
 }
 
+.bg-yellow {
+    background-color: #ffff66;
+}
+
 .bg-db {
     background-color: #071629;
 }
@@ -110,22 +114,6 @@ header .bg-hero {
     max-width: 255px;
 }
 
-<<<<<<< Updated upstream
-.loader {
-    border: 10px solid #f3f3f3;
-    border-top: 10px solid #61D85E;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    animation: spin 2s linear infinite;
-    margin: auto;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-=======
 .font-size {
     font-size: 20px;
 }
@@ -140,4 +128,3 @@ header .bg-hero {
         background-color:rgba(255, 255, 255, 0.4);
     }
 }
->>>>>>> Stashed changes
