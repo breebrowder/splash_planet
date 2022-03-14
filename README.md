@@ -1,6 +1,4 @@
-#  Custom Frontend From Scratch - SPLASH PLANET
-
-![alt text](https://github.com/breebrowder/splash_planet/blob/Bree/images/planet.jpg)
+#  Custom Frontend From Scratch - SPLASH PLANET 🌊
 
 ## Project Info
 
@@ -26,7 +24,7 @@ You and your team are tasked with the following:
    * Cookies
    * Forms
 
-[LINK TO OUR FIGMA DESIGN MOCKUP](https://www.figma.com/file/5whzVdW1RZCuMoNCD0rTCg/Custom-Frontend-(Splash-Planet))
+[LINK TO OUR FIGMA DESIGN MOCKUP](https://www.figma.com/file/5whzVdW1RZCuMoNCD0rTCg/Splash-Planet-Design?node-id=0%3A1)
 
 ### 1. Client Pitch
 You and your team must pitch your website to this elusive client. They refuse to meet with you in person or online - instead, they insist that you send them a document selling them on why YOUR website is the one to pick for their new product.
@@ -41,13 +39,25 @@ Your pitch must include the following:
 [LINK TO OUR CLIENT PITCH DOCUMENT](https://docs.google.com/document/d/1T2nf0j9dCapDRDzXGZQbS08JPLsgiXoQn8Frr3trvNU/edit?usp=sharing)
 
 ## Contributors
+
 ### Jay Calhoun:
-1. [Email](2682@holbertonschool.com)
-2. [Github](github.com/Valinor13)
+2. [Github](https://github.com/Valinor13)
 
 ### Bree Browder
-1. [Email](2372@holbertonschool.com)
-2. [Github](github.com/breebrowder)
+2. [Github](https://github.com/breebrowder)
 
-## DUE:
-October 25, 2021
+## About the Developer  💬
+
+### Bree Browder
+
+Bree is known for her creativity, organization, and self awareness. Advances in technology have played an integral part in her life. As an empathy-driven problem solver, Bree wants to be at the forefront of design for products, and to continuously design with others in mind, especially those who tend to be marginalized or forgotten.
+
+### Follow Me
+
+- 📁 [LinkedIn](https://www.linkedin.com/in/breebrowder/)
+- ✍️ [Medium](https://medium.com/@breebrowder)
+- 🖥️ [Portfolio Website](https://breebrowder.github.io)
+
+### Email Me
+📩: browder.bree@gmail.com
+
