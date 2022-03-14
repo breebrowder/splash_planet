@@ -41,7 +41,7 @@ Your pitch must include the following:
 ## Contributors
 
 ### Jay Calhoun:
-2. [Github](https://github.com/Valinor13)
+1. [Github](https://github.com/Valinor13)
 
 ### Bree Browder
 2. [Github](https://github.com/breebrowder)
