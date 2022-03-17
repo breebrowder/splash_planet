@@ -33,6 +33,7 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Coiny&display=swap" rel="stylesheet">
+  <link href="images/favicon.ico" rel="icon">
   <link rel="stylesheet" href="styles.css">
   <title>Splash Planet</title>
 </head>
@@ -134,8 +135,9 @@
         <h3>SEASON PASSES</h3>
       </div>
       <p class="mx-5 mb-5 fs-5">
-        Get everyday access all season long to Oklahoma's biggest aqua adventure destination with the Splash Pass. Click
-        here
+        Get everyday access all season long to Oklahoma's biggest aqua adventure destination with the Splash Pass.
+          <a id="myBtn" data-toggle="modal" href="#myModal1" style="cursor: pointer;">Click
+        here</a>
         to learn more about this steamin' hot deal.
       </p>
     </div>
@@ -313,14 +315,51 @@
     </div>
   </section>
 
+  <section id="myModal1" class="modal fade" role="dialog" aria-label="Dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="d-flex justify-content-end">
+            <span class="close fs-3 text-danger" data-dismiss="modal" style="cursor: pointer;">&times;</span>
+          </div>
+          <p class="text-center fs-3">SEASON PASSES</p>
+          <table class="table table-striped bg-yellow">
+            <thead>
+              <tr>
+                <th scope="col">Tickets</th>
+                <th scope="col">Prices</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>One day ticket</td>
+                <td>$29.99 /ea</td>
+              </tr>
+              <tr>
+                <td>Thrill Seeker Pass</td>
+                <td>$64.99 /ea</td>
+              </tr>
+              <tr>
+                <td>Extreme Pass</td>
+                <td>$159.99 /ea</td>
+              </tr>
+              <tr>
+                <td>Ultimate Pass</td>
+                <td>$299.99 /ea</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>For information about the perks you get with each ticket type, visit our <a href="https://www.sixflags.com/frontiercity/store/tickets">FAQ Page</a>.
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
-
 <footer class="bg-success" id="contact">
   <div class="container">
     <div class="section-footer text-center d-sm-flex flex-row justify-content-sm-between py-5">
       <a class="navbar-brand text-dark" href="#">
         <div class="pt-5 fs-32">
-          CONTACT US
         </div>
         <p>Phone: 1-(800)-123-4567</p>
         <p id="oddParagraph">Email: splashcustomersupport@gmail.com</p>
